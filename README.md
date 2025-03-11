@@ -29,3 +29,7 @@ python -m streamlit run .\main.py
 
 ## Tests
 - Sample text under the test-input-files directory
+
+## Detected Patterns - Analysis
+
+![mydevto-post-score-analysis](https://github.com/omerbsezer/AI-Content-Detector/blob/main/gif/mydevto-post-score-analysis.png)
