@@ -10,6 +10,8 @@ Tool using AWS Bedrock Service - Llama 3.1 405B
 
 ## Run
 ```shell
+git clone https://github.com/omerbsezer/AI-Content-Detector
+pip install -r requirements.txt
 python -m streamlit run .\main.py
 ```
 
