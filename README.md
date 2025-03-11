@@ -35,5 +35,11 @@ python -m streamlit run .\main.py
 - Sample text under the test-input-files directory
 
 ## Detected Patterns - Analysis
-
+### AI Score for Human Generated Text in App
 ![mydevto-post-score-analysis](https://github.com/omerbsezer/AI-Content-Detector/blob/main/gif/mydevto-post-score-analysis.png)
+
+### AI Score for COMPLETELY AI Generated Text
+![image](https://github.com/user-attachments/assets/0eab6388-46e8-4869-aa22-4bbe4edf8715)
+
+![image](https://github.com/user-attachments/assets/963c9fb0-2e75-499a-bc62-39f9f28079db)
+
