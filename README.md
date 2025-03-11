@@ -7,6 +7,8 @@ Tool using AWS Bedrock Service - Llama 3.1 405B
 - I created post in **Dev.to** and discuss how to eliminate COMPLETELY AI Generated Posts. 
   - https://dev.to/omerberatsezer/why-should-we-keep-writing-lets-discuss-2nc
 - After discussion in the post, I decided to create a simple SAMPLE AI Content Detector tool with **PROMPT TEMPLATE** to show that it's really **SIMPLE and EFFECTIVE**.
+- I mentioned this app in the following DEV.to post, please have a look for details, and please leave your valuable ideas in the post's comment:
+  - https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4 
 
 ## Run
 ```shell
