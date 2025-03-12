@@ -10,6 +10,12 @@ Tool using AWS Bedrock Service - Llama 3.1 405B
 - I mentioned this app in the following DEV.to post, please have a look for details, and please leave your valuable ideas in the post's comment:
   - https://dev.to/omerberatsezer/open-source-ai-content-detector-app-with-aws-bedrock-to-separate-completely-ai-vs-human-generated-2de4 
 
+## Structure
+- **ai_generated_analyzer.py** => prompt template, parse response
+- **main.py** => Streamlit GUI
+  - left side => Input Text
+  - right side => AI Generation Score, Evaluation, Detection Patterns
+    
 ## Run
 ```shell
 git clone https://github.com/omerbsezer/AI-Content-Detector
@@ -24,12 +30,6 @@ python -m streamlit run .\main.py
 
 ### AI Score for COMPLETELY AI Generated Text
 ![text1-analysis](https://github.com/omerbsezer/AI-Content-Detector/blob/main/gif/text1-analysis.gif)
-
-## Structure
-- **ai_generated_analyzer.py** => prompt template, parse response
-- **main.py** => Streamlit GUI
-  - left side => Input Text
-  - right side => AI Generation Score, Evaluation, Detection Patterns 
 
 ## Tests
 - Sample text under the test-input-files directory
