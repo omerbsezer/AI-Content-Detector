@@ -17,6 +17,31 @@ Tool using AWS Bedrock Service - Llama 3.1 405B
   - right side => AI Generation Score, Evaluation, Detection Patterns
     
 ## Run
+- Before run, please be sure that your AWS credential and config files are correctly configured on **C:\Users\USERNAME\\.aws\config** and **C:\Users\USERNAME\\.aws\credentials**. Also, getting permission request in your AWS account is required to use Llama 3.1 405B on AWS Bedrock. Code does not offer to use AWS Bedrock Llama 3.1 405B for free, you'll use your own AWS account.
+
+- Please download AWS CLI on your PC, then configure with your credentials to connect your AWS account.
+  - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html 
+```shell
+aws config
+```
+
+- **C:\Users\USERNAME\\.aws\config**
+```yaml
+[default]
+region = us-west-2
+output = json
+```
+
+- **C:\Users\USERNAME\\.aws\credentials**
+```yaml
+[default]
+aws_access_key_id = AKIXXXXXXXXXXXX
+aws_secret_access_key = XXXXXXXXXXXXX
+```
+
+- Another way, instead of using config/credential files, use your credentials with Environment Variables or copy to credentials to in your code as hardcoded (not suggested in the long term, but in short term, you can run the code).
+  
+- Run:
 ```shell
 git clone https://github.com/omerbsezer/AI-Content-Detector
 pip install -r requirements.txt
